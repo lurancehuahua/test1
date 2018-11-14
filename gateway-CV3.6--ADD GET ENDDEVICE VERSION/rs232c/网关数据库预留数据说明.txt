@@ -1,0 +1,15 @@
+生产网关数据库预留数据及说明：
+
+【1】 progress 表
+需增加一条记录
+id     over    nver    psta    pros  gwver  mtt      jnt
+1	0	0	1	0      101   86400   86400
+
+其中pros是生产时使用的，当网关首次上电时，
+会自动升级5169，之后pros置为1。以后上电便不会自动升级5169.
+PS：要测试网关程序前，请把pros置为1。
+
+【2】 report 表
+需增加一条记录
+id     gmacid  tk       powt   powt    devt   devs    ndevt    ndevs       sip          sport
+1	0	0	3600	1	300	1	10	0	192.168.90.231	8082

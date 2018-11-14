@@ -1,0 +1,14 @@
+#!/bin/sh /etc/rc.common
+START=87
+STOP=15
+
+start() {
+  echo start
+  /root/logzigbee
+  #commands to launch application, such as above
+}
+
+stop() {
+  echo stop
+  #commands to kill application
+}

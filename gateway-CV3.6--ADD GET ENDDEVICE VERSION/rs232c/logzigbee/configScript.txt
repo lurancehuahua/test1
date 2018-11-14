@@ -1,0 +1,2 @@
+clearE2ROM 0
+autoUpdateJN5169 0

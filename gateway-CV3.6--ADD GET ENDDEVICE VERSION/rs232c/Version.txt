@@ -1,0 +1,5 @@
+¡¾1¡¿logzigbee
+Logzigbee version: 14:03:33 -- Sep 21 2018.
+
+¡¾2¡¿zigbee
+Zigbee thread version is : 09:12:17 -- Sep 21 2018
